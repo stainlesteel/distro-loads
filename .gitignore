@@ -1,0 +1,7 @@
+# the usual
+__pycache__
+.pyc
+
+# build files
+build/
+dist/
