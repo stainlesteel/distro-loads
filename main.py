@@ -72,6 +72,20 @@ distros = {
         'mx-fluxbox': 'https://netactuate.dl.sourceforge.net/project/mx-linux/Final/Fluxbox/MX-23.6_fluxbox_x64.iso',
         'centos-stream': 'https://mirror.cpsc.ucalgary.ca/mirror/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-dvd1.iso',
         'zorin-os': 'https://mirror.umd.edu/zorin/17/Zorin-OS-17.3-Core-64-bit-r2.iso',
+        'endeavour-os': 'https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso',
+        'pop-os': 'https://iso.pop-os.org/22.04/amd64/intel/56/pop-os_22.04_amd64_intel_56.iso',
+        'pop-os-nvidia': 'https://iso.pop-os.org/22.04/amd64/nvidia/56/pop-os_22.04_amd64_nvidia_56.iso',
+        'elementary-os': 'https://sfo1.dl.elementary.io/download/MTc1NTY0Nzk3OA==/elementaryos-8.0-stable.20250314rc.iso',
+        'antix-linux': 'https://pilotfiber.dl.sourceforge.net/project/antix-linux/Final/antiX-23.2/antiX-23.2_x64-full.iso',
+        'antix-netinst': 'https://psychz.dl.sourceforge.net/project/antix-linux/Final/antiX-23.2/antiX-23.2-net_x64-net.iso',
+        'alpine-linux': 'https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-standard-3.22.1-x86_64.iso',
+        'alma-linux': 'https://repo.almalinux.org/almalinux/10/isos/x86_64/AlmaLinux-10.0-x86_64-dvd.iso',
+        'alma-linux-minimal': 'https://repo.almalinux.org/almalinux/10/isos/x86_64/AlmaLinux-10.0-x86_64-minimal.iso',
+        'cachy-os': 'https://cdn77.cachyos.org/ISO/desktop/250713/cachyos-desktop-linux-250713.iso',
+        'cachy-os-handheld': 'https://cdn77.cachyos.org/ISO/handheld/250713/cachyos-handheld-linux-250713.iso',
+        'puppy-linux-bookworm': 'https://distro.ibiblio.org/puppylinux/puppy-bookwormpup/BookwormPup64/10.0.11/BookwormPup64_10.0.11.iso',
+        'puppy-linux-f96': 'https://netactuate.dl.sourceforge.net/project/pb-gh-releases/S15Pup64_release/S15Pup64-22.12-250809.iso',
+
     },
     'arm64': {
         'arch-linux': 'http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz',
@@ -102,6 +116,14 @@ distros = {
         'kali-rpi-2-5': 'https://kali.download/arm-images/kali-2025.2/kali-linux-2025.2-raspberry-pi-arm64.img.xz',
         'kali-rpi-0-2': 'https://kali.download/arm-images/kali-2025.2/kali-linux-2025.2-raspberry-pi-zero-2-w-armhf.img.xz',
         'kali-pine64': 'https://kali.download/arm-images/kali-2025.2/kali-linux-2025.2-pinebook-arm64.img.xz',
+        'endeavour-os-rpi4': 'https://release-assets.githubusercontent.com/github-production-release-asset/503394105/8ecab24a-bc22-4c39-bb72-a0799b34c1e6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-20T00%3A44%3A30Z&rscd=attachment%3B+filename%3DenosLinuxARM-rpi4-latest.img.xz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-19T23%3A44%3A19Z&ske=2025-08-20T00%3A44%3A30Z&sks=b&skv=2018-11-09&sig=bfKWZ9lk5p8ThgmBruarHAvbVqNH6dmiGOPbM1lbGt8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NTY0Nzk1NiwibmJmIjoxNzU1NjQ3NjU2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ._b_Y15_olc5zxfwYu8jCFE0yI__dgwR5whWNkeZJuKU&response-content-disposition=attachment%3B%20filename%3DenosLinuxARM-rpi4-latest.img.xz',
+        'endeavour-os-rpi5': 'https://github.com/endeavouros-arm/images/releases/download/rpi-5b-image/enosLinuxARM-rpi5-latest.img.xz',
+        'endeavour-os-odroid': 'https://github.com/endeavouros-arm/images/releases/download/odroid-n2-image/enosLinuxARM-odroid-n2-latest.img.xz',
+        'endeavour-os-pine64': 'https://github.com/endeavouros-arm/images/releases/download/pinebook-pro-image/enosLinuxARM-pbp-latest.img.xz',
+        'pop-os-rpi': 'https://iso.pop-os.org/22.04/arm64/raspi/4/pop-os_22.04_arm64_raspi_4.img.xz',
+        'alpine-linux': 'https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/aarch64/alpine-standard-3.22.1-aarch64.iso',
+        'alma-linux': 'https://repo.almalinux.org/almalinux/10/isos/aarch64/AlmaLinux-10.0-aarch64-dvd.iso',
+        'alma-linux-minimal': 'https://repo.almalinux.org/almalinux/10/isos/aarch64/AlmaLinux-10.0-aarch64-minimal.iso',
     }
 }
 
@@ -124,13 +146,18 @@ def downs(url):
                    mbs = bytes / 1500000
                    feq.write(chunk)
                    bar.update(mbs)
+
+           print()
            print('Done.')
     except requests.exceptions.ConnectionError as err:
         print("Failed to download iso, error with connection")
-        raise SystemExit(err)
+        raise SystemExit()
     except requests.exceptions.HTTPError as err:
         print("Failed to download iso, HTTPError (error with url, endpoint server, .etc.")
-        raise SystemExit(err)
+        raise SystemExit()
+    except OSError:
+        print("System has no more space.")
+        raise SystemExit()
              
 try:
     if args.command == 'distro':
