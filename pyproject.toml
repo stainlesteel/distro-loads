@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "main"
+requires-python = ">= 3.11"
+version = "1.0.0"
+description = "Download ISOs over CLI"
+authors = [{name = "stainlesteel"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+dependencies = [
+  "progressbar2",
+  "requests"
+]
