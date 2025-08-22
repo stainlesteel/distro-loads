@@ -33,7 +33,14 @@ You can run this as a portable python app (not recommended).
 1. Install repository contents.
 2. Install package requirements via `python3 -m pip install -r requc.txt`
 3. Run the .py file, Windows: `python main.py`, MacOS/Linux: `python3 main.py`
-
+### RPM (RHEL-based distros)
+An RPM is available in the Releases tab.
+To install, run:
+```bash
+dnf install distro-loads-1.0-1.fc42.x8_64.rpm 
+```
+### Generic Linux (x86-64)
+Another binary is available to be used portablly for any Linux distro, in the Releases tab.
 ## Usage
 This is a command-line tool, as such you type in commands along with required arguments.
 

@@ -5,3 +5,4 @@ __pycache__
 # build files
 build/
 dist/
+rpm/
